@@ -9,7 +9,7 @@ In clean code architecture, there are three main layers
 - Presentation
 - Common
 
-![image]([https://user-images.githubusercontent.com/25193983/112195232-b8665d80-8c2f-11eb-83cb-e362b8bff420.png](https://i.postimg.cc/66V84KZq/arquitectura.png))
+![image](https://i.postimg.cc/66V84KZq/arquitectura.png)
 
 ## Common
 
