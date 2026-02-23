@@ -21,5 +21,17 @@ class AppRouter extends $AppRouter {
           path: '/expenses/detail',
           page: ExpenseDetailRoute.page,
         ),
+        AdaptiveRoute(
+          path: '/expenses/form',
+          page: ExpenseFormRoute.page,
+        ),
+        AdaptiveRoute(
+          path: '/expenses/scan_qr',
+          page: ScanQRRoute.page,
+        ),
+        AdaptiveRoute(
+          path: '/chart',
+          page: ChartRoute.page,
+        ),
       ];
 }

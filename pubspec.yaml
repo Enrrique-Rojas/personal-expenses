@@ -9,19 +9,26 @@ environment:
   flutter: ">=3.35.6"
 
 dependencies:
+  audioplayers: ^6.2.0
   auto_route: 8.0.0
   cupertino_icons: ^1.0.8
   dio: ^5.9.1
-  firebase_auth: ^5.4.0
-  firebase_core: ^3.4.0
+  fl_chart: ^1.1.1
   flutter:
     sdk: flutter
   flutter_animate: ^4.5.2
+  flutter_dotenv: ^6.0.0
   flutter_hooks: ^0.20.3
   flutter_secure_storage: ^10.0.0
   freezed_annotation: ^2.4.1
+  get_it: ^8.0.3
   hooks_riverpod: ^2.4.6
-  internet_connection_checker_plus: ^2.9.1+2
+  intl: ^0.20.2
+  json_annotation: ^4.8.1
+  mobile_scanner: ^7.2.0
+  package_info_plus: ^9.0.0
+  path_provider: ^2.1.5
+  pdf: ^3.11.3
   simple_biometric: ^0.1.1
   sqflite: ^2.4.2
 
@@ -32,6 +39,14 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   freezed: ^2.4.7
+  json_serializable: ^6.7.1
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/sounds/beep.mp3
+    #Environment
+    - .env.dev
+    - .env.qa
+    - .env
