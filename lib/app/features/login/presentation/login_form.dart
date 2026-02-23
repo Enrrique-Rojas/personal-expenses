@@ -36,7 +36,6 @@ class LoginForm extends HookConsumerWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            // Titulo con animación
             const Text(
               "Iniciar Sesión",
               style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
@@ -44,7 +43,6 @@ class LoginForm extends HookConsumerWidget {
 
             const SizedBox(height: 32),
 
-            // Input Email
             CustomTextField(
               controller: emailController,
               label: 'Correo electrónico',
@@ -58,7 +56,6 @@ class LoginForm extends HookConsumerWidget {
               },
             ).animate().fadeIn(delay: 200.ms),
 
-            // Input Password
             CustomTextField(
               controller: passwordController,
               label: 'Contraseña',
@@ -74,7 +71,6 @@ class LoginForm extends HookConsumerWidget {
 
             const SizedBox(height: 12),
 
-            // Botón Principal con diseño moderno
             _LoginButton(
               isLoading: isLoading,
               onPressed: () {
@@ -128,7 +124,7 @@ class _LoginButton extends StatelessWidget {
         ),
         boxShadow: [
           BoxShadow(
-            color: Theme.of(context).primaryColor.withOpacity(0.3),
+            color: Theme.of(context).primaryColor.withAlpha(77),
             blurRadius: 12,
             offset: const Offset(0, 6),
           ),

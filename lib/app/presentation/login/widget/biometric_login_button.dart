@@ -47,7 +47,6 @@ class _BiometricLoginButtonState extends ConsumerState<BiometricLoginButton> {
       }
     } catch (e) {
 
-      // ignore: use_build_context_synchronously
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Error de autenticación biométrica: $e')),
       );

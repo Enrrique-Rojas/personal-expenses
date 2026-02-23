@@ -46,7 +46,7 @@ class CustomTextField extends HookWidget {
                 )
               : null,
           filled: true,
-          fillColor: Colors.grey.withOpacity(0.05),
+          fillColor: Colors.grey.withAlpha(13),
           contentPadding: const EdgeInsets.symmetric(vertical: 18, horizontal: 16),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(16),

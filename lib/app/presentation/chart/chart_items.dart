@@ -21,7 +21,7 @@ class ChartItems extends HookConsumerWidget {
           toY: total.toDouble(), color: const Color(0xFF2196F3));
     }).toList();
 
-    final chartType = useState(0); // 0: barras, 1: pastel, 2: líneas
+    final chartType = useState(0);
 
     Widget barChart() => BarChart(
           BarChartData(
