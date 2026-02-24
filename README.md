@@ -18,7 +18,7 @@ A continuación se muestran capturas de pantalla de la aplicación en funcionami
   <tr>
     <td><a href="https://postimg.cc/94PWwGFN"><img src="https://i.postimg.cc/TPFhS08G/Whats-App-Image-2026-02-22-at-23-34-52.jpg" width="250"/></a></td>
     <td><a href="https://postimg.cc/jW6snzdF"><img src="https://i.postimg.cc/d0pDX6Mw/Whats-App-Image-2026-02-22-at-23-34-58.jpg" width="250"/></a></td>
-    <td></td>
+    <td><a href="https://postimg.cc/QKGkYZrr"><img src="https://i.postimg.cc/7hbs6qsb/Whats-App-Image-2026-02-22-at-23-48-05.jpg" width="250"></a></td>
   </tr>
 </table>
 
